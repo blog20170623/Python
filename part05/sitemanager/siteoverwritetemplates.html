@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>重写模板 | Django常用</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../uploadpicture.html" />
+    
+    
+    <link rel="prev" href="../sitemanager/siteeditpageoption.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="0.3.3"
+        data-chapter-title="重写模板"
+        data-filepath="sitemanager/siteoverwritetemplates.md"
+        data-basepath=".."
+        data-revision="Sun Nov 19 2017 00:10:15 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Django常用
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.1" data-path="staticfiles.html">
+            
+                
+                    <a href="../staticfiles.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                        静态文件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.2" data-path="middleware.html">
+            
+                
+                    <a href="../middleware.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.2.</b>
+                        
+                        中间件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3" data-path="sitemanager.html">
+            
+                
+                    <a href="../sitemanager.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.</b>
+                        
+                        站点管理
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.3.1" data-path="sitemanager/sitelistpageoption.html">
+            
+                
+                    <a href="../sitemanager/sitelistpageoption.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.1.</b>
+                        
+                        列表页选项
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.3.2" data-path="sitemanager/siteeditpageoption.html">
+            
+                
+                    <a href="../sitemanager/siteeditpageoption.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.2.</b>
+                        
+                        编辑页选项
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="0.3.3" data-path="sitemanager/siteoverwritetemplates.html">
+            
+                
+                    <a href="../sitemanager/siteoverwritetemplates.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.3.3.</b>
+                        
+                        重写模板
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4" data-path="uploadpicture.html">
+            
+                
+                    <a href="../uploadpicture.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.</b>
+                        
+                        上传图片
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="0.4.1" data-path="uploadpicture/uploadpicturesite.html">
+            
+                
+                    <a href="../uploadpicture/uploadpicturesite.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.1.</b>
+                        
+                        后台站点上传
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.2" data-path="uploadpicture/uploadpicturecustomform.html">
+            
+                
+                    <a href="../uploadpicture/uploadpicturecustomform.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.2.</b>
+                        
+                        自定义表单上传
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.4.3" data-path="uploadpicture/uploadpictureshow.html">
+            
+                
+                    <a href="../uploadpicture/uploadpictureshow.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.4.3.</b>
+                        
+                        展示上传的图片
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="0.5" data-path="paginator.html">
+            
+                
+                    <a href="../paginator.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.5.</b>
+                        
+                        分页
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="0.6" data-path="areasselect.html">
+            
+                
+                    <a href="../areasselect.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.6.</b>
+                        
+                        案例：省市区选择
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Django常用</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#x91CD;&#x5199;&#x6A21;&#x677F;">&#x91CD;&#x5199;&#x6A21;&#x677F;</h1>
+<ul>
+<li>&#x5F53;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x7AD9;&#x70B9;&#x7BA1;&#x7406;&#x9875;&#x9762;&#x7684;&#x6837;&#x5F0F;&#x65F6;&#xFF0C;&#x53EF;&#x4EE5;&#x91CD;&#x5199;&#x7AD9;&#x70B9;&#x7684;&#x6A21;&#x677F;</li>
+</ul>
+<blockquote>
+<p>&#x91CD;&#x5199;&#x6A21;&#x677F;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;</p>
+</blockquote>
+<ul>
+<li><p>&#x5728;<code>templates</code>&#x76EE;&#x5F55;&#x4E0B;&#x521B;&#x5EFA;<code>admin</code>&#x76EE;&#x5F55;</p>
+<p>  <img src="../images/admin&#x76EE;&#x5F55;.png" alt=""></p>
+</li>
+<li><p>&#x6253;&#x5F00;&#x5F53;&#x524D;&#x865A;&#x62DF;&#x73AF;&#x5883;&#x4E2D;Django&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x518D;&#x5411;&#x4E0B;&#x627E;&#x5230;&#x7AD9;&#x70B9;&#x9875;&#x9762;&#x7684;&#x6A21;&#x677F;</p>
+<ul>
+<li>python2&#x865A;&#x62DF;&#x73AF;&#x5883;&#x4E2D;&#xFF1A;<code>/home/python/.virtualenvs/py_django/lib/python2.7/site-packages/django/contrib/admin/templates/admin/base_site.html</code></li>
+<li><p>python3&#x865A;&#x62DF;&#x73AF;&#x5883;&#x4E2D;&#xFF1A;<code>/home/python/.virtualenvs/py3_django/lib/python3.5/site-packages/django/contrib/admin/templates/admin/base_site.html</code></p>
+<p><img src="../images/&#x91CD;&#x5199;&#x7684;&#x6A21;&#x677F;.png" alt=""></p>
+</li>
+</ul>
+</li>
+<li><p>&#x7F16;&#x8F91;<code>base_site.html</code>&#x6587;&#x4EF6;</p>
+</li>
+</ul>
+<pre><code class="lang-html">{% extends &quot;admin/base.html&quot; %}
+
+{% block title %}{{ title }} | {{ site_title|default:_(&apos;Django site admin&apos;) }}{% endblock %}
+
+{% block branding %}
+{#<span class="hljs-tag">&lt;<span class="hljs-title">h1</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;site-name&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">&quot;{% url &apos;admin:index&apos; %}&quot;</span>&gt;</span>{{ site_header|default:_(&apos;Django administration&apos;) }}<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>#}
+
+{# &#x81EA;&#x5B9A;&#x4E49;&#x5185;&#x5BB9; #}
+<span class="hljs-tag">&lt;<span class="hljs-title">h1</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">&quot;site-name&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-title">a</span> <span class="hljs-attribute">href</span>=<span class="hljs-value">&quot;{% url &apos;admin:index&apos; %}&quot;</span>&gt;</span>&#x6B22;&#x8FCE;&#x4F7F;&#x7528;&#x7AD9;&#x70B9;&#x7BA1;&#x7406;<span class="hljs-tag">&lt;/<span class="hljs-title">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+</code></pre>
+<ul>
+<li><p>&#x4FEE;&#x6539;&#x6A21;&#x677F;&#x524D;</p>
+<p>  <img src="../images/&#x4FEE;&#x6539;&#x6A21;&#x677F;&#x524D;.png" alt=""></p>
+</li>
+<li><p>&#x4FEE;&#x6539;&#x6A21;&#x677F;&#x540E;</p>
+<p>  <img src="../images/&#x4FEE;&#x6539;&#x6A21;&#x677F;&#x540E;.png" alt=""></p>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../sitemanager/siteeditpageoption.html" class="navigation navigation-prev " aria-label="Previous page: 编辑页选项"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../uploadpicture.html" class="navigation navigation-next " aria-label="Next page: 上传图片"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
