@@ -21,3 +21,13 @@
 ## Python 爬虫
 
 [爬虫](https://haozhang95.github.io/Python24/21%E7%88%AC%E8%99%AB%E5%85%A5%E9%97%A8/file/part01/1.html)
+
+---
+
+# Javascript
+
+## JavaScript 教程
+
+[JavaScript 教程](https://wangdoc.com/javascript/index.html)
+
+[ES6 教程](https://wangdoc.com/es6/)
