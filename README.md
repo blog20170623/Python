@@ -10,6 +10,8 @@
 
 [3.第三部分：面向对象](https://blogspace170623.github.io/Python/part03/index.html)
 
+[Python 100 天](https://github.com/blogspace170623/Python-100-Days)
+
 ## Django
 
 [1.第一部分：Django基础概念](https://blogspace170623.github.io/Python/part04/index.html)
